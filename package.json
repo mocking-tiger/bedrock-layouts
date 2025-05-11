@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@bedrock-layout/css": "^2.13.1",
+    "@bedrock-layout/inline": "^4.4.4",
+    "@bedrock-layout/inline-cluster": "^3.4.4",
     "@bedrock-layout/stack": "^3.3.4",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
