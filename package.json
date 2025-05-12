@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bedrock-layout/appboundary": "^3.2.16",
+    "@bedrock-layout/center": "^3.2.15",
+    "@bedrock-layout/cover": "^3.5.4",
     "@bedrock-layout/css": "^2.13.1",
     "@bedrock-layout/inline": "^4.4.4",
     "@bedrock-layout/inline-cluster": "^3.4.4",

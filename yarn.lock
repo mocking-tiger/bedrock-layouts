@@ -1094,6 +1094,31 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@bedrock-layout/appboundary@^3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/appboundary/-/appboundary-3.2.16.tgz#e6d50d69cff0479038be25410b051d8221ece94a"
+  integrity sha512-bs27ixxzsy0brHux/+LS9kPOB0/asf7opyTsW8qCbE95W4on8MuVrxT4zsCQEbplOgaiOmQHHIE9smwZCCOuzg==
+  dependencies:
+    "@bedrock-layout/center" "^3.2.15"
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
+
+"@bedrock-layout/center@^3.2.15":
+  version "3.2.15"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/center/-/center-3.2.15.tgz#bd9919dbcb042bef296d05b2105f713aac831f52"
+  integrity sha512-LFadnEI86hpAlp7ggG5c12BAPfduisSXc6TU9lXzxt+wLCQWhRuRIyeFeYEWd8mn0zFb4Y07q72pYcOjnX8oqQ==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
+
+"@bedrock-layout/cover@^3.5.4":
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/cover/-/cover-3.5.4.tgz#261250f79180f7ead07ccc1d9d28ca778f790e74"
+  integrity sha512-qw3xuOmMS0u/AWL7pVcNWstuuUOWkrHYkeTqi4h6fH3reMJiD177h+UBuLbjomid71qzRje4qva6wzCsimEFVg==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
+
 "@bedrock-layout/css@^2.13.1":
   version "2.13.1"
   resolved "https://registry.yarnpkg.com/@bedrock-layout/css/-/css-2.13.1.tgz#00c80ab0e11da9c319a7d6368ed79d492622d909"
