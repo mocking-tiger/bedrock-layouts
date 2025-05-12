@@ -5,6 +5,7 @@ import { Center } from "@bedrock-layout/center";
 
 import { Subscribe } from "./Subscribe";
 import { Menu } from "./Menu";
+import { Card } from "./Card";
 
 function App() {
   return (
@@ -22,7 +23,13 @@ function App() {
           </Stack>
         </Center>
       </Cover>
-      <Subscribe />
+      <Stack gutter="size7">
+        <h2>New Arrivals</h2>
+        <Card />
+      </Stack>
+      <Center centerText>
+        <Subscribe />
+      </Center>
     </Stack>
   );
 }

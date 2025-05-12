@@ -1111,6 +1111,14 @@
     "@bedrock-layout/spacing-constants" "^3.3.10"
     "@bedrock-layout/type-utils" "^0.1.14"
 
+"@bedrock-layout/column-drop@^3.4.4":
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/column-drop/-/column-drop-3.4.4.tgz#8f24ec6b0ddcec9a8c2e8361c8650698bf85e105"
+  integrity sha512-ZQCGlBoOxMsjf8ZQ6ljc/nUZJmFQjGzRabuVSfP0y5YK8/oyBiQJMoGBnqWH1UqDM1Pzqi0+dxjNQIBlrBMa4w==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
+
 "@bedrock-layout/cover@^3.5.4":
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/@bedrock-layout/cover/-/cover-3.5.4.tgz#261250f79180f7ead07ccc1d9d28ca778f790e74"
@@ -1123,6 +1131,21 @@
   version "2.13.1"
   resolved "https://registry.yarnpkg.com/@bedrock-layout/css/-/css-2.13.1.tgz#00c80ab0e11da9c319a7d6368ed79d492622d909"
   integrity sha512-7XUA2gxjUojGjNX/oW/q9o3Y3hs8ODy+aotxbMqtuS8mjm4GX0EDHFFPXBpm50/EQwfU6ZD1RKfQpQbiqLFlDg==
+
+"@bedrock-layout/frame@^3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/frame/-/frame-3.2.14.tgz#efa4d626b763f52ed2c3e80eb3fdb02520d2e82f"
+  integrity sha512-tWyjALu5D47t7TJll54VAYn6JpjklpwN95HiT6wrnyyD9CRNHE1BV0NlOLypV5nWwhOhYngd04D71CBV5g/vrw==
+  dependencies:
+    "@bedrock-layout/type-utils" "^0.1.14"
+
+"@bedrock-layout/grid@^4.4.4":
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/grid/-/grid-4.4.4.tgz#5474ce2b23d7b8277f05264be68765cfab192851"
+  integrity sha512-e8GS8OpBDipeu95kvAwlfUhKYoUiSLgNl8sDdhC6UVmKiqQLzMsue5gq9AmOjDM6Mu4asvUNhEad1kzettFtjQ==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
 
 "@bedrock-layout/inline-cluster@^3.4.4":
   version "3.4.4"
@@ -1139,6 +1162,29 @@
   dependencies:
     "@bedrock-layout/spacing-constants" "^3.3.10"
     "@bedrock-layout/type-utils" "^0.1.14"
+
+"@bedrock-layout/masonry-grid@^4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/masonry-grid/-/masonry-grid-4.3.6.tgz#f915c11574d845b62412bfaf15b02765de91ab14"
+  integrity sha512-XLbPW6+NGffA4Ryq2t2W0yqS2MJ5QHja1/UhwO85ZGYTOrUDdf25gGc5mPrQTbdodme8LoCovaKgqCBz4BNTfg==
+  dependencies:
+    "@bedrock-layout/grid" "^4.4.4"
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
+    "@bedrock-layout/use-resize-observer" "^2.0.17"
+
+"@bedrock-layout/padbox@^3.2.14":
+  version "3.2.14"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/padbox/-/padbox-3.2.14.tgz#5f616941d4e0f76ea9600f7669615013c3c0f824"
+  integrity sha512-OwSJqoReoKC/2/4HiAVaMkrdjhUBHMNffeXBHjad707S95hYTzTjZpvOK9B1lHFkouCgJAntTUtxpa4rMBAlJA==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.3.10"
+    "@bedrock-layout/type-utils" "^0.1.14"
+
+"@bedrock-layout/register-resize-callback@^2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/register-resize-callback/-/register-resize-callback-2.0.14.tgz#97a9de4f1e30072149658ec53bd6e670f4e69904"
+  integrity sha512-BCa8SsA4yHkpUgN0ZWdi4bZNJuw9y4kLdoLW0ujnkYmu2aUHxQ2ajLgmrdEsFSAa/YW+K2Lu5EOmBPpaH4MXJw==
 
 "@bedrock-layout/spacing-constants@^3.3.10":
   version "3.3.10"
@@ -1157,6 +1203,19 @@
   version "0.1.14"
   resolved "https://registry.yarnpkg.com/@bedrock-layout/type-utils/-/type-utils-0.1.14.tgz#6a8897646b133f201aa86b151eae1ac0deefd6cd"
   integrity sha512-XUX1IBzwu1/Gocj/FBGXxbKYu0BCbjxxAuwSAsw0kXt8I0riI0H4hulk4lncLGD21f6u5livFNF0WwjZvFRjoQ==
+
+"@bedrock-layout/use-resize-observer@^2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/use-resize-observer/-/use-resize-observer-2.0.17.tgz#f731c4587c6778f5f09cd16183c09314cea648d8"
+  integrity sha512-o5wnwywTnwjm1KJt7mp/fr0K/6rItLILyJF2rBBU6T8FeuAS0uCg4SGRcfd5E4EKILm3n85dhJWDDritbWDh0A==
+  dependencies:
+    "@bedrock-layout/register-resize-callback" "^2.0.14"
+    "@bedrock-layout/use-stateful-ref" "^2.0.16"
+
+"@bedrock-layout/use-stateful-ref@^2.0.16":
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/use-stateful-ref/-/use-stateful-ref-2.0.16.tgz#ee83e8b17f1f27f69a5ab8456c493e5a169583e9"
+  integrity sha512-Q9wq4YdXqy+h0JvHdHjyWb7n4qIXv9lUScjt0JJBT7Rg47EaMBFhdldQqcNLQmidPc9QF6f7G23UojbcwEXnCA==
 
 "@csstools/normalize.css@*":
   version "12.1.1"
